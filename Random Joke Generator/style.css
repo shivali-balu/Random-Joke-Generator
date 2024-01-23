@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
+body {
+    height: 100vh; 
+    width: 100vw; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background: linear-gradient(0deg,rgba(0,0,0,0.7) , rgba(0,0,0,0.7) ) , url('laugh2.png'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    flex-direction: column; 
+    row-gap: 15px;
+}  
+h2 {
+    text-align: center !important;
+} 
+.card {
+    width: 50% !important;
+    text-align: center;
+}
